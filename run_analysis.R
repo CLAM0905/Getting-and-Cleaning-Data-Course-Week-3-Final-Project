@@ -70,8 +70,7 @@ TDataset5 <- arrange(TDataset4, Subject, Activity)
 View(TDataset5)
 
 #TDataset is the tidy data set with the average of each variable for each activity and subject. Thank you for reading! 
-
-
+write.table(TDataset5, "TidyDataC3.txt", sep = ",", row.names= FALSE)
 
 
 
